@@ -12,7 +12,7 @@
 
 <body>
 
-    //Escreva um programa em PHP que declare uma variável chamada "nome" e atribua a ela o valor "Maria". Em seguida, imprima a mensagem "Olá, Maria!".
+    <!-- Escreva um programa em PHP que declare uma variável chamada "nome" e atribua a ela o valor "Maria". Em seguida, imprima a mensagem "Olá, Maria!". -->
 
 <?php
 $nome = "Maria";
