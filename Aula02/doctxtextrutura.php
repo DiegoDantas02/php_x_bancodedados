@@ -5,6 +5,7 @@ if
 if else
 if else if
  */
+echo "<br>";
 $idade = 20;
 if ($idade >= 18) {
     echo "Pode dirigir"; //verdadeiro
