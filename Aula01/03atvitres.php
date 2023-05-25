@@ -14,9 +14,10 @@
     <?php
     //03-Escreva um programa que calcule e imprima o resultado da seguinte expressão matemática: (10 + 5) * 2 / 3 - 8. 
     echo "<h1> Calcule a expressão matemática!! </h1>";
+    echo "<br>";
+    $calcule = (10 + 5) * 2 / 3 - 8;
+    echo "O valor do resultado é: " . $calcule;
 
-    $calcule = "resultado";
-    
     ?>
 </body>
 
