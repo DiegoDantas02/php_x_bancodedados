@@ -12,7 +12,7 @@ echo (20 <= 30) . "TRUE<br>"; //menor ou igual
 
 echo (10 == 10 && 10 > 5) . "TRUE<br>"; //operador E
 echo (10 == 10 || 10 > 5) . "TRUE<br>"; //operador OU
-echo (!false) . "TRUE<br>"; //operador NÃO
+echo (!false) . "TRUE<br>"; //operador NÃO/ VALOR É OPOSTO
 
 
 ?>
