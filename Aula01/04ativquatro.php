@@ -13,8 +13,8 @@
 <body>
     <?php
     //Crie uma variável chamada "numero" e atribua a ela um valor. Verifique se o número é par ou ímpar e exiba uma mensagem correspondente. 
-    $numero = 5;
-    if($numero / $numero){
+    $numero = 2;
+    if($numero % 2 == 0){
         echo "O Numero Selecionado é : " . $numero . " Par";
     }else{
         echo "O Numero Selecionado é: " . $numero . " Impar";
