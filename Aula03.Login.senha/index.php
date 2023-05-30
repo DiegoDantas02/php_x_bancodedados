@@ -19,13 +19,16 @@
     ?>
     <br>
     <br>
-    <h1>Tela de Login!! 😊👌</h1>
-    <form action="validar.php" method="post">
+    <h1>😊👌 TELA DE LOGIN 😊👌</h1>
+    <br>
+    <form action="validar.php" method="post" class="">
+        <p>Digite Seu E-mail:</p>
         <input placeholder="usuario@email.com" name="usuario"> <br>
         <br>
+        <p>Digite Sua Senha:</p>
         <input type="password" placeholder="Senha" name="senha"> <br>
         <br>
-        <button type="submit" >Entrar</button>
+        <button type="submit" class="btn btn-danger">Entrar</button>
     </form>
     
 </body>
