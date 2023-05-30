@@ -1,6 +1,5 @@
 <?php
-$usuario = $_POST["usuario"]
-$senha = $_POST["senha"]
-echo "Sucesso Seja Bem Vindo !!! " . $usuario;
+
+echo "<h1>Sucesso Seja Bem Vindo !!! </h1> " . $usuario;
 
 ?>
