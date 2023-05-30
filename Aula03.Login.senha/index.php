@@ -10,8 +10,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
+    <style>
+    body {
+      background-image: url("img/papel-de-parede.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
-
 <body>
 
 
@@ -19,7 +25,7 @@
     <br>
     <div class="container text-center ">
         <div class="p-5">
-
+        
             <h1>😊👌 TELA DE LOGIN 😊👌</h1>
             <br>
             <br>
