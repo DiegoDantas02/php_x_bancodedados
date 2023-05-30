@@ -14,9 +14,9 @@
     echo "<h1>Crie duas variáveis numéricas e realize a soma entre elas. Em seguida, imprima o resultado. </h1>";
     $valor = 2;
     $valor1 = 4;
+    $soma = $valor + $valor1;
 
-    $valor + $valor1;
-    echo 
+    echo "O Resultado é: " . $soma;
 
     ?>
 
