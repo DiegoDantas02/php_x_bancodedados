@@ -14,23 +14,33 @@
 
 <body>
 
-    <?php
 
-    ?>
     <br>
     <br>
-    <h1>😊👌 TELA DE LOGIN 😊👌</h1>
-    <br>
-    <form action="validar.php" method="post" class="">
-        <p>Digite Seu E-mail:</p>
-        <input placeholder="usuario@email.com" name="usuario"> <br>
-        <br>
-        <p>Digite Sua Senha:</p>
-        <input type="password" placeholder="Senha" name="senha"> <br>
-        <br>
-        <button type="submit" class="btn btn-danger">Entrar</button>
-    </form>
-    
+    <div class="container text-center ">
+        <div class="p-5">
+
+            <h1>😊👌 TELA DE LOGIN 😊👌</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="validar.php" method="post" class="">
+                <p >Digite Seu E-mail:</p>
+                <input placeholder="usuario@email.com" name="usuario" > <br>
+                <br>
+                <br>
+                
+                <p>Digite Sua Senha:</p>
+                <input type="password" placeholder="Senha" name="senha"> <br>
+                <br>
+                <br>
+
+                <button type="submit" class="btn btn-danger">Entrar</button>
+            </form>
+        </div>
+
+    </div>
 </body>
 
 </html>
