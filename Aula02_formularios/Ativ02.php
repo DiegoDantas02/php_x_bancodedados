@@ -9,19 +9,23 @@
     <title>Atividade 02</title>
 
 </head>
+
 <body>
 
-    <h1>Escreva um programa que receba os dados de um formulário HTML contendo os campos "idade" e "altura". Valide se os campos foram preenchidos corretamente e exiba uma mensagem com os valores informados</h1>
-    
+    <p>Escreva um programa que receba os dados de um formulário HTML contendo os campos "idade" e "altura". Valide se os campos foram preenchidos corretamente e exiba uma mensagem com os valores informados</p>
+
     <form>
-        <input type="idade">
-        <input type="altura">
+        Digite Sua Idade:
+        <input type="idade"><br> <br>
+        Digite Sua altura:
+        <input type="altura"> <br> <br>
         <button type="submit">Enviar</button>
     </form>
     <?php
-    
+
 
     ?>
 
 </body>
+
 </html>
