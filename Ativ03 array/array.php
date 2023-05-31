@@ -22,7 +22,7 @@
 
     print_r($frutas);
 
-    //Inserindo um novo valor [abcaxi] dentro do array $frutas:
+    //Inserindo um novo valor [abacaxi] Dentro do array $frutas:
 
     $frutas[4] = "abacaxi";
     echo "<br>";
@@ -50,9 +50,9 @@
     print_r($frutas);
 
     // utilizando o laço de repetição para exibir todos os items da array $frutas
-echo "<br>";
+    echo "<br>";
     foreach($frutas as $fruta){
-        echo $fruta . "<br>";
+    echo $fruta . "<br>";
     }
     ?>
 </body>
