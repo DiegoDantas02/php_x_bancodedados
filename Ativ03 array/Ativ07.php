@@ -1,0 +1,1 @@
+Crie um array de strings contendo o nome de 5 países diferentes. Em seguida, percorra o array e imprima cada país em uma linha separada. 

@@ -1,0 +1,1 @@
+Crie um array chamado "cores" contendo cinco cores diferentes. Em seguida, imprima a quantidade de elementos presentes no array. 

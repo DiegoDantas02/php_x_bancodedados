@@ -1,0 +1,1 @@
+Crie um array associativo chamado "aluno" com as seguintes chaves: "nome", "idade" e "nota". Atribua valores a essas chaves e imprima o conteúdo do array. 

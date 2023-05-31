@@ -1,0 +1,1 @@
+Crie um array chamado "cores" contendo três cores diferentes. Em seguida, imprima cada cor em uma linha separada. 
