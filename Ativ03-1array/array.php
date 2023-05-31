@@ -14,7 +14,7 @@
 
     // Array é uma lista onde pode adicionar e procurar itens adicionados
 
-    //Criando um array com o nome de futas e os valores maçã banana laaranja e morango
+    //Criando um array com o nome de futas e os valores maçã banana laranja e morango
 
     $frutas = array("maçã", "banana", "laranja", "morango");
 
