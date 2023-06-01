@@ -37,12 +37,12 @@
                     </div>
                 </div>
                 <img src="img/<?php echo $fotos[$i]; ?>" class="img-fluid">
-                <div class="row"></div>
+                <div class="container row"></div>
                 <div class="col-12">
                 <i class="bi bi-heart" row-01></i>
                 <i class="bi bi-chat"></i>
                 <i class="bi bi-send" ></i>
-                <i class="bi bi-bookmark m-10" ></i>
+                <i class="bi bi-bookmark m-10 align items-end" ></i>
                 </div>
                 <div class="col-12">
                 <p><?php echo $legendas[$i];?></p>
