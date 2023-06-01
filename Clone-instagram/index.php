@@ -19,8 +19,8 @@
 
         <?php
 
-        $legendas = ["Rio de Janeiro", "Jalapão", " Chapada Diamantina"];
-        $fotos = ["rio.jpg", "jalapao.jpg", "diamantina.jpg"];
+        $legendas = ["Bandit Girl", "Groot Arrebenta", " Beatiful Galaxy"];
+        $fotos = ["girl.jfif", "groot.jpg", "galaxy.jfif"];
 
         for ($i = 0; $i < 3; $i++) :
         ?>
@@ -29,15 +29,24 @@
             <div class="mb-3">
                 <div class="row">
                     <div class="col-2">
-                        <img src="img/avatar.jpg" class="img-thumbnail img-fluid" style="border-radius: 50px">
+                        <img src="img/avatar0.png" class="img-thumbnail img-fluid" style="border-radius: 50px">
                     </div>
                     <div class="col g-0">
-                        <h6 class="mb-0 mt-1">Toninho Starko</h6>
-                        <p class="g-0">Americana</p>
+                        <h6 class="mb-0 mt-1">El Soldier</h6>
+                        <p class="g-0"> Estados Unidos</p>
                     </div>
                 </div>
                 <img src="img/<?php echo $fotos[$i]; ?>" class="img-fluid">
+                <div class="row"></div>
+                <div class="col-12">
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-chat"></i>
+                <i class="bi bi-send" ></i>
+                <i class="bi bi-bookmark m-10" ></i>
+                </div>
+                <div class="col-12">
                 <p><?php echo $legendas[$i];?></p>
+                </div>
 
             </div>
         <?php
