@@ -11,6 +11,8 @@
 
     <?php
     $pais = array("EUA", "CANADA","ITALIA", "ESPANHA","PORTUGAL");
+    print_r($pais);
+    echo "<br>";
     foreach($pais as $pais){
     echo $pais . "<br>";}
    
