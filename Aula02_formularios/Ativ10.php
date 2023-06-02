@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-
+    <title>Formulário de Contato</title>
 </head>
 <body>
 
+<h2>Formulário de Contato</h2>
 
-    <P>Escreva um programa que receba um formulário com campos de texto para o nome, e-mail e mensagem. Ao enviar o formulário, envie uma mensagem para o whatsapp com as informações fornecidas pelo usuário. </P>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" required><br>
 
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" required><br>
 
-    
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="mensagem" required></textarea><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Recuperar os dados do formulário
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $mensagem = $_POST['mensagem'];
+
+    // Exibir os dados enviados
+    echo "<h3>Dados enviados:</h3>";
+    echo "<p>Nome: $nome</p>";
+    echo "<p>E-mail: $email</p>";
+    echo "<p>Mensagem: $mensagem</p>";
+}
+?>
+
 </body>
 </html>
