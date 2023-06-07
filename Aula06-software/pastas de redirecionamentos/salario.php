@@ -1,6 +1,6 @@
 <!----- conexão-- -->
 <?php
-include "cabecalho.php" . "rodape.php";
+include "cabecalho.php";
 ?>
 <!-- ------------------- -->
 <main class="container">
@@ -15,6 +15,8 @@ include "cabecalho.php" . "rodape.php";
     </div>
 </main>
 
-
+<?php
+include "cabecalho.php" ;
+?>
 </body>
 </html>

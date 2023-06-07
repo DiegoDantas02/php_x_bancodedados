@@ -1,9 +1,8 @@
 <!----- conexão-- -->
 <?php
-include "cabecalho.php" . "rodape.php";
+include "cabecalho.php" ;
 ?>
-<html>
-    <body>
+
         
 
     <!-- ----------- inicio menu----------- -->
@@ -49,7 +48,7 @@ include "cabecalho.php" . "rodape.php";
     </div>
     <!-- ---------------------- end menu -->
 
-    <!-- ---------inicio menu -------- -->
+    <!-- --------- -------- -->
    
 
         <div class="row text-center">
@@ -80,11 +79,9 @@ include "cabecalho.php" . "rodape.php";
                     <strong>CONFIGURAÇÕES</strong>
                 </a>
             </div>
-
         </div>
-
     </div>
 
-</body>
-
-</html>
+    <?php
+include "rodape.php" ;
+?>

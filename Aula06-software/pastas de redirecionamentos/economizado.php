@@ -1,6 +1,6 @@
 <!----- conexão-- -->
 <?php
-include "cabecalho.php" . "rodape.php";
+include "cabecalho.php";
 ?>
 <!-- --------------- -->
 
