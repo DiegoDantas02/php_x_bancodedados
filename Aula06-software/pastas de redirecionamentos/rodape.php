@@ -1,5 +1,7 @@
 <!-- ------------------footer------------- -->
 
+
+
 <footer class="container-fluid g-0 bg-dark text-light">
         <div class="row p-3">
             <div class="col text-center ">
@@ -7,5 +9,4 @@
             </div>
         </div>
     </footer>
-    </body>
-</html>
+</body>

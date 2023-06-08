@@ -2,6 +2,7 @@
 <?php
 include "cabecalho.php";
 ?>
+<br>
 <!-- ------------------- -->
 <main class="container">
     <div class="row">
@@ -14,9 +15,9 @@ include "cabecalho.php";
         </div>
     </div>
 </main>
-
+<br>
 <?php
-include "cabecalho.php" ;
+include "rodape.php" ;
 ?>
 </body>
 </html>

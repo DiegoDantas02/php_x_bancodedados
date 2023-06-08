@@ -5,7 +5,7 @@ include "cabecalho.php";
 <!-- --------------- -->
 
 <main class="container">
-    <form class="salario-salvar.php" method="post">
+    <form class="../pastas de redirecionamentos/salario-salvar.php" method="post">
     <input name="nome">
     <input name="sobrenome">
     <button type="submit">SALVAR</button>
@@ -13,5 +13,5 @@ include "cabecalho.php";
 </main>
 
 <?php
-include "cabecalho.php" ;
+include "rodape.php" ;
 ?>
