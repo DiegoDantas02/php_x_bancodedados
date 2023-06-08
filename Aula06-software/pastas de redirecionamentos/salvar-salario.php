@@ -13,14 +13,14 @@ $bd_servidor = "localhost";
 
 
 //abrir a conexão
-$conexao = mysqli_connect($bd_servidor, $bd_usuario, $bd_senha, $bd_financa);
+$conexao = mysqli_connect($bd_servidor, $bd_usuario, $bd_senha, $bd_nome_do_banco);
 
 
 
 //criar o sql inserir
 $sql = "insert into t_cliente(nome, sobrenome) values('$nome', '$sobrenome')";
 
-echo $sql;
+echo "$sql";
 
 
 
